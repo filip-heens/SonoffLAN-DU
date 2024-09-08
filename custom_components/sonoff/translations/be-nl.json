@@ -1,0 +1,40 @@
+{
+  "config": {
+    "abort": {
+      "reauth_successful": "Herauthenticatie was succesvol"
+    },
+    "error": {
+      "exists": "Deze account is al geconfigureerd",
+      "template": "{error}"
+    },
+    "step": {
+      "user": {
+        "description": "Voer uw [eWeLink account](https://www.ewelink.cc/en/) gegevens in",
+        "data": {
+          "username": "Email of telefoon (gebruik any voor -Doe het zelf- modus)",
+          "password": "Paswoord (laat leeg voor -Doe het zelf- modus)",
+          "country_code": "Land code (laat leeg voor auto keuze)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "mode": "Modus (auto is aanbevolen voor meeste gebruikers)",
+          "homes": "Thuis (laat leeg voor actief thuis in mobiele app)",
+          "debug": "Debug pagina (Integratie > Menu > Bekende Problemen)"
+        }
+      }
+    }
+  },
+  "system_health": {
+    "info": {
+      "version": "Versie",
+      "cloud_online": "Cloud toestellen online",
+      "local_online": "Locale toestellen online",
+      "debug": "Debug pagina"
+    }
+  }
+}
